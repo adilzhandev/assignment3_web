@@ -165,6 +165,36 @@ main {
     font-weight: bold;
 }
 
+/* ---------- Gallery (CSS Grid) ---------- */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 15px;
+}
+
+.gallery-item {
+    position: relative;
+}
+
+.gallery-item img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* text on the bottom of the photo */
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
 /* ---------- Footer ---------- */
 footer {
     background-color: #1d2b36;
