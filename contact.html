@@ -73,22 +73,22 @@
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label for="name" class="form-label">Name</label>
-                                <input type="text" id="name" class="form-control" placeholder="Your name" required>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="phone" class="form-label">Phone</label>
-                                <input type="tel" id="phone" class="form-control" placeholder="+7 700 000 00 00" required>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="+7 700 000 00 00" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="email" id="email" class="form-control" placeholder="name@mail.com">
+                                <input type="email" id="email" name="email" class="form-control" placeholder="name@mail.com">
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="tour" class="form-label">Tour</label>
-                                <select id="tour" class="form-select">
+                                <select id="tour" name="tour" class="form-select">
                                     <option>Canyons Weekend - $150</option>
                                     <option>Mountain Lakes - $240</option>
                                     <option>Silk Road Cities - $420</option>
@@ -100,27 +100,27 @@
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label for="date" class="form-label">Date</label>
-                                <input type="date" id="date" class="form-control">
+                                <input type="date" id="date" name="date" class="form-control">
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="people" class="form-label">Number of people</label>
-                                <input type="number" id="people" class="form-control" min="1" max="12" value="1">
+                                <input type="number" id="people" name="people" class="form-control" min="1" max="12" value="1">
                             </div>
                         </div>
 
                         <p class="form-label">Where do you want to sleep?</p>
                         <div class="mb-3">
-                            <input type="radio" id="hotel" name="stay" class="form-check-input" checked>
+                            <input type="radio" id="hotel" name="stay" value="hotel" class="form-check-input" checked>
                             <label for="hotel" class="me-4">Hotel</label>
-                            <input type="radio" id="yurt" name="stay" class="form-check-input">
+                            <input type="radio" id="yurt" name="stay" value="yurt" class="form-check-input">
                             <label for="yurt">Yurt</label>
                         </div>
 
                         <label for="message" class="form-label">Message</label>
-                        <textarea id="message" class="form-control mb-3" rows="4" placeholder="Any questions or wishes"></textarea>
+                        <textarea id="message" name="message" class="form-control mb-3" rows="4" placeholder="Any questions or wishes"></textarea>
 
                         <div class="mb-4">
-                            <input type="checkbox" id="agree" class="form-check-input" required>
+                            <input type="checkbox" id="agree" name="agree" class="form-check-input" required>
                             <label for="agree">I agree that you can call me</label>
                         </div>
 
@@ -130,7 +130,7 @@
 
                 <!-- Contact info -->
                 <div class="col-lg-4">
-                    <div class="info-box">
+                    <aside class="info-box">
                         <h2>Contacts</h2>
                         <p>Have a question? Call or write to us.</p>
                         <ul class="list-unstyled">
@@ -139,7 +139,7 @@
                             <li>✉️ info@discoverkz.kz</li>
                             <li>🕘 Mon - Sat, 9:00 - 18:00</li>
                         </ul>
-                    </div>
+                    </aside>
 
                     <!-- Map -->
                     <iframe class="map" src="https://maps.google.com/maps?q=Almaty&output=embed" title="Map of Almaty"></iframe>

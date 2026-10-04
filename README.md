@@ -17,7 +17,7 @@
 | Contact | `contact.html` | Booking page: 3 steps, **booking form**, contacts and a map |
 
 ## Features implemented
-- **Semantic HTML5:** `header`, `nav`, `main`, `section`, `footer`
+- **Semantic HTML5:** `header`, `nav`, `main`, `section`, `article`, `figure`, `figcaption`, `aside`, `footer`
 - **HTML elements:** headings, paragraphs, ordered/unordered lists, links, images, table, form, `div` and `span`
 - **CSS:** element, class, ID, descendant and `:hover` selectors; one color theme (blue, yellow, dark); Google Font *Poppins*
 - **Flexbox:** hero text in the center, "Why us" boxes in one row
