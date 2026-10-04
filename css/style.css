@@ -159,6 +159,12 @@ main {
     font-size: 18px;
 }
 
+/* ---------- Price table ---------- */
+.price {
+    color: #00a3c4;
+    font-weight: bold;
+}
+
 /* ---------- Footer ---------- */
 footer {
     background-color: #1d2b36;
