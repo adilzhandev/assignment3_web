@@ -143,6 +143,22 @@ main {
     font-size: 14px;
 }
 
+/* ---------- Team (about page) ---------- */
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: #00a3c4;
+    color: white;
+    font-size: 40px;
+    line-height: 100px; /* puts the letter in the middle */
+}
+
+.team-name {
+    font-size: 18px;
+}
+
 /* ---------- Footer ---------- */
 footer {
     background-color: #1d2b36;
