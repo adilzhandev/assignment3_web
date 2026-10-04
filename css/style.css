@@ -243,10 +243,57 @@ main {
     border-radius: 0 0 10px 10px;
 }
 
-/* ---------- Contact form ---------- */
+/* ---------- Booking page ---------- */
+/* 3 steps in one row (Flexbox) */
+.steps {
+    display: flex;
+    gap: 20px;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+}
+
+.step h3 {
+    font-size: 20px;
+}
+
+/* yellow circle with a number */
+.step-number {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #f2c200;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .booking-form {
     background-color: white;
     padding: 30px;
+    border-radius: 10px;
+}
+
+.info-box {
+    background-color: #1d2b36;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.info-box li {
+    margin-bottom: 10px;
+}
+
+.map {
+    width: 100%;
+    height: 250px;
+    border: 0;
     border-radius: 10px;
 }
 
@@ -295,6 +342,10 @@ footer a {
     }
 
     .features {
+        flex-direction: column;
+    }
+
+    .steps {
         flex-direction: column;
     }
 
