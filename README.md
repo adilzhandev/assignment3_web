@@ -5,7 +5,7 @@
 
 **Topic:** A travel agency website that presents tours across Kazakhstan (canyons, mountain lakes, Silk Road cities).
 
-**Live demo:** _add your GitHub Pages / Netlify link here_
+**Live demo:** https://adilzhandev.github.io/assignment3/
 
 ## Pages
 | Page | File | What it shows |
@@ -28,7 +28,7 @@
 
 ## Project structure
 ```
-site/
+assignment3/
 ├── index.html
 ├── about.html
 ├── tours.html
