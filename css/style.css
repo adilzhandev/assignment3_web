@@ -233,3 +233,47 @@ footer a {
     line-height: 45px;
     text-decoration: none;
 }
+
+/* ---------- Media queries ---------- */
+
+/* Tablet (screen 992px or smaller) */
+@media (max-width: 992px) {
+    .hero {
+        height: 450px;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile (screen 576px or smaller) */
+@media (max-width: 576px) {
+    .hero {
+        height: 350px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .page-header {
+        padding: 30px 15px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .booking-form {
+        padding: 15px;
+    }
+}
