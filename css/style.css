@@ -20,6 +20,19 @@ img {
     font-weight: bold;
 }
 
+h2 {
+    font-weight: bold;
+}
+
+/* the same soft shadow for all white boxes */
+.feature-box,
+.card,
+.team-card,
+.booking-form,
+.info-box {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 /* ---------- Navbar ---------- */
 /* position: fixed - the menu stays at the top when we scroll */
 #main-nav {
@@ -81,10 +94,17 @@ main {
 
 /* ---------- Page header (other pages) ---------- */
 .page-header {
-    background-color: #00a3c4;
+    /* a dark layer on top of the photo, so the white text is easy to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/kolsai.jpg");
+    background-size: cover;
+    background-position: center;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 80px 20px;
+}
+
+.page-header h1 {
+    font-weight: bold;
 }
 
 /* ---------- Buttons ---------- */
@@ -92,6 +112,8 @@ main {
     background-color: #f2c200;
     color: #1d2b36;
     font-weight: bold;
+    border-radius: 25px;
+    padding: 8px 25px;
 }
 
 .btn-main:hover {
@@ -108,7 +130,8 @@ main {
 .feature-box {
     flex: 1;
     background-color: white;
-    padding: 20px;
+    text-align: center;
+    padding: 25px;
     border-radius: 10px;
     border-top: 4px solid #00a3c4;
 }
@@ -121,6 +144,15 @@ main {
 .card {
     position: relative;
     height: 100%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden; /* round corners for the photo too */
+    transition: 0.3s;
+}
+
+/* the card moves up a little when the mouse is on it */
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card img {
@@ -191,6 +223,11 @@ main {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gallery-item img:hover {
+    opacity: 0.8;
 }
 
 /* text on the bottom of the photo */
