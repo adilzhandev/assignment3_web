@@ -11,10 +11,10 @@
 | Page | File | What it shows |
 |------|------|---------------|
 | Home | `index.html` | Hero banner, "Why us" features (Flexbox), popular destinations (Bootstrap grid cards) |
-| About | `about.html` | Our story, values (list), trip steps (ordered list), team |
+| About | `about.html` | Our story, values (list), trip steps (ordered list), team with photos |
 | Tours | `tours.html` | Tour cards and a **pricing/schedule table** |
 | Gallery | `gallery.html` | Photo gallery built with **CSS Grid** |
-| Contact | `contact.html` | Contact info and a **booking form** |
+| Contact | `contact.html` | Booking page: 3 steps, **booking form**, contacts and a map |
 
 ## Features implemented
 - **Semantic HTML5:** `header`, `nav`, `main`, `section`, `footer`
@@ -37,6 +37,7 @@ site/
 ├── css/
 │   └── style.css
 ├── images/        # photos of Kazakhstan
+│   └── team/      # team photos
 └── README.md
 ```
 
@@ -67,3 +68,5 @@ All photos are from [Wikimedia Commons](https://commons.wikimedia.org/) and are 
 | [`images/yurt.jpg`](https://commons.wikimedia.org/wiki/File:Yurt_at_the_Foot_of_the_Cliffs,_Aktobe_Region,_Kazakhstan.jpg) | Danatleg122 | CC BY 4.0 |
 | [`images/altyn-emel.jpg`](https://commons.wikimedia.org/wiki/File:210723_Altyn_Emel_Singing_Dune_top.jpg) | Jjm2311 | CC BY-SA 4.0 |
 | [`images/medeu.jpg`](https://commons.wikimedia.org/wiki/File:Medeobanen1.jpg) | Kefi | CC0 |
+
+Team photos (`images/team/`) are stock portraits from [randomuser.me](https://randomuser.me/). The team members are fictional.
