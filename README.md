@@ -5,7 +5,7 @@
 
 **Topic:** A travel agency website that presents tours across Kazakhstan (canyons, mountain lakes, Silk Road cities).
 
-**Live demo:** https://adilzhandev.github.io/assignment3/
+**Live demo:** https://adilzhandev.github.io/assignment3_web/
 
 ## Pages
 | Page | File | What it shows |
